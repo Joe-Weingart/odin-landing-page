@@ -1,5 +1,5 @@
 *{
-    font-family: "Roboto", sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 .header, .top {
@@ -43,4 +43,86 @@ button.top-button {
     
     border: 1px
 
+}
+
+.top-left {
+    max-width: 300px;
+}
+
+.top-right {
+    max-width: 300px;
+}
+
+img {
+    max-width: 300px;
+    border-radius: 25px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+    padding: 40px;
+}
+
+.info img {
+    height: 200px;
+    width: 200px;
+    border: 3px solid #3882F6;
+}
+
+.title {
+    text-align: center;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 40px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    margin-bottom: -20px;
+}
+
+.thor {
+    text-align: right;
+    font-size: 16px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+}
+
+.action {
+    display: flex;
+    background-color: royalblue;
+    width: 800px;
+    border-radius: 25px;
+    gap: 32 px;
+    padding: 32px;
+    color: white;
+    margin-top: 52px;
+    margin-bottom: 52px;
+    justify-content: space-between;
+    
+}
+
+.bottom-subtitle {
+    font-size: small;
+    gap: 32px;
+}
+
+.bottom-button {
+    display: flex;
+    justify-self: flex-end;
+    border: 2px solid #E5E7EB;
+    align-self: center;
 }
